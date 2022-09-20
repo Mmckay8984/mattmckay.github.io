@@ -2,3 +2,21 @@
 {
 color: #4D82AA;
 }
+
+.hover_black:hover
+{
+    color: black;
+    
+}
+
+.card-body:hover
+{
+    color: #4D82AA;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.hover_enlarge:hover
+{
+    
+    -webkit-transform: scale(1.2); 
+}

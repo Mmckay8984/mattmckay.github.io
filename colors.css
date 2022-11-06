@@ -25,3 +25,53 @@ color: #1F64EF;
 {
     color: #1F64EF;
 }
+
+.nav_hover:hover
+{
+    color:black;
+    
+
+}
+
+.hover_stroke_black:hover
+{
+    -webkit-text-stroke-color: black; color: white; font-size: 400%; 
+}
+
+.heading_name
+{
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: #1F64EF; color: white; font-size: 400%; 
+    -webkit-transition: transform 0.5s ease-in-out;
+ 
+}
+
+.hover_shift_left:hover
+{
+    transform: translate(-2.1rem);
+}
+
+
+.job_title
+{
+   
+    -webkit-transition: transform 0.5s ease-in-out;
+    display: inline-block;
+}
+
+.test{
+    transform: rotate(180deg);
+}
+
+.rotate_infinite
+{
+    animation: spin 3s linear infinite;
+    @keyframes spin {
+        0%{
+            transform: rotate(0);
+        }
+        100{
+            transform: rotate(360deg);
+        }
+    }
+}
